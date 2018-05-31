@@ -1,0 +1,73 @@
+body {
+	overflow: hidden;
+}
+
+.divpane {
+	position: absolute;
+	width: 45%;
+	height: 45%;
+	top: 20%;
+	left: 20%;
+	
+	
+	margin: 0;
+	padding: 0;
+	z-index: 99;
+	border: 2px solid #106CC8;
+	background: #fefefe;
+}
+
+.divtitle {
+	font-family: monospace;
+	background: #106CC8;
+	color: white;
+	font-size: 24px;
+	height: 30px;
+	text-align: center;
+}
+
+#ghostpane {
+	background: #999;
+	opacity: 0.2;
+
+	width: 45%;
+	height: 45%;
+	top: 20%;
+	left: 20%;
+	
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	z-index: 98;
+
+	-webkit-transition: all 0.25s ease-in-out;
+	-moz-transition: all 0.25s ease-in-out;
+	-ms-transition: all 0.25s ease-in-out;
+	-o-transition: all 0.25s ease-in-out;
+	transition: all 0.25s ease-in-out;
+}
+.closeform:before {
+	font-family: verdana;
+	font-size: 22px;
+	float: right;
+	color: white;
+	cursor:pointer;
+	content: "\2613";
+}
+.boxsquare:before {
+	font-family: verdana;
+	font-size: 22px;
+	float: right;
+	color: white;
+	cursor:pointer;
+	content: "\2610";
+}
+
+.doublebox:before {
+	font-family: verdana;
+	font-size: 22px;
+	float: right;
+	color: white;
+	cursor:pointer;
+	content: "\2750";
+}
